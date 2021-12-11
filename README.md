@@ -9,15 +9,7 @@ Code: function Pizza(size, cheese, topping1, topping2, topping3){
 };
 Expected Output: Will create a unique object for each Pizza order
 
-Describe: function Customer()
-Test: "It will create keys for each unique cutsomer placing an order, including name and delivery address"
-Code: function Pizza(name, address){
-    this.name=name;
-    this.address=address
-};
-Expected Output: Will create a unique object for each Customer placing an order
-
-<!-- Describe: Pizza.prototype.addTotal = function()
+Describe: Pizza.prototype.addTotal = function()
 Test: "It will add the total of the pizza options"
 Code: let size = 1
       let cheese = 1
@@ -26,7 +18,16 @@ Code: let size = 1
       let topping3 = 1
 
       Pizza.prototype.addTotal = function(){
-          total = this.size + this.cheese + this.topping1 + this.topping2 + this.topping3
-          return total
+          return = this.size + this.cheese + this.topping1 + this.topping2 + this.topping3
       }
-Expected Output: Would add to a total of 6 -->
+Expected Output: Would add to a total of 6
+
+<!-- Did not have time for constructor below, may try to return to this at some point -->
+
+<!-- Describe: function Customer()
+Test: "It will create keys for each unique cutsomer placing an order, including name and delivery address"
+Code: function Pizza(name, address){
+    this.name=name;
+    this.address=address
+};
+Expected Output: Will create a unique object for each Customer placing an order -->
