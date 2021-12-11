@@ -17,7 +17,7 @@ Code: function Pizza(name, address){
 };
 Expected Output: Will create a unique object for each Customer placing an order
 
-Describe: Pizza.prototype.addTotal = function()
+<!-- Describe: Pizza.prototype.addTotal = function()
 Test: "It will add the total of the pizza options"
 Code: let size = 1
       let cheese = 1
@@ -29,4 +29,4 @@ Code: let size = 1
           total = this.size + this.cheese + this.topping1 + this.topping2 + this.topping3
           return total
       }
-Expected Output: Would add to a total of 6
+Expected Output: Would add to a total of 6 -->
