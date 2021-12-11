@@ -8,13 +8,27 @@
   <title>Bowser's Pizza Shop</title>
 </head>
 <body>
-  <h1>Bowser's Pizza Shop</h1>
-  <h2> Bowser is happy to make your pie! Best pizza in the Mushroom Kingdom, and most certainly safe to consume! No real people were harmed in the making of these pizzas...we swear...Bowser's promise!</h2>
-<div class="container">
+<!-- <div class="card-deck my-5">
+  <div class="card">
+    <div class="card-body"> -->
+      <h1>Bowser's Pizza Shop</h1>
+    <!-- </div>  
+  </div>
+</div>  -->
+<!-- <div class="card-deck my-5">
+  <div class="card">
+    <div class="card-body"> -->
+  <h5> Bowser is happy to make your pie! Best pizza in the Mushroom Kingdom, and most certainly safe to consume! No real people were harmed in the making of these pizzas...we swear...Bowser's promise!</h5>
+    <!-- </div>
+  </div>
+</div> 
+   -->
+  <div class="container">
     <div>
       <form id="pizza-order">
         <label for="pizza-size">First Thing's First: Determine the Size of your Desired Pie!</label>
           <select class="form-control" id="pizza-size">
+            <option value = "0">Desired Serving Size</option>
             <option value="5">Just a slice! $5</option>
             <option value="10">Baby Mario (Small) $10</option>
             <option value="12">Fly Guy (Medium) $12</option>
@@ -22,32 +36,37 @@
           </select>
         <label for="cheese">Type of dairy topping?</label>
           <select class="form-control" id="cheese">
+            <option value = "0">Desired Cheese</option>
             <option value="1">Koopa Chedda $1</option>
             <option value="2">Mario's Mozzarella $2</option>
             <option value="3">Bob-omb vegan cheese $3</option>
           </select>
-        <label for="topping1">You must choose three toppings. You have no choice in this matter. If you want the best you will abide by Bowser's rules muahahahahah!</label>
+        <label for="topping1">You may choose three up to three toppings! Four would be ridiculous, how much room do you think is on a pizza?!</label>
           <select class="form-control" id="topping1">
+            <option value = "0">Topping 1</option>
             <option value="1">Luigi's Basil Leaves $1</option>
             <option value="2">Peach's Pineapple Chunks $2</option>
             <option value="2">Donkey Kong's Chicken $2</option>
           </select>
         <label for="topping2">Keep going or else Bowser will get angry!</label>
           <select class="form-control" id="topping2">
+            <option value = "0">Topping 2</option>
             <option value="1">Chain Chomp's Black Olives $1</option>
             <option value="2">Diddy Kong's Jalapenos $2</option>
-            <option value="2">Wario's Canadian Bacon $2</option>
+            <option value="3">Yoshi's Pesto $3</option>
           </select>
         <label for="topping3">One final topping, then your quest for the best pizza will be complete!</label>
           <select class="form-control" id="topping3">
+            <option value = "0">Topping 3</option>
             <option value="2">Bowser Jr's Prosciutto $2</option>
             <option value="2">Toadstool's Mushrooms $2</option>
-            <option value="3">Yoshi's Pesto $3</option>
+            <option value="2">Wario's Canadian Bacon $2</option>
           </select>
           <div id="total">
           </div>
-          <button type="submit" class="button1">Calculate my pizza's total!</button>
-          <button id="goaway" type="reset" class="button2">Reset the form</button> 
+          <br>
+          <button type="submit" class="button">Calculate the total for my delicious pizza!</button>
+          <button id="goaway" type="reset">Reset the form</button> 
     </form>
   </div>
 </div>
