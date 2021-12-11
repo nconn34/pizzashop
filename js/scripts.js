@@ -12,3 +12,11 @@ function Pizza(name, address){
     this.name=name;
     this.address=address
 };
+
+console.log("PIZZA!!!!")
+
+      Pizza.prototype.addTotal = function(){
+          total = this.size + this.cheese + this.topping1 + this.topping2 + this.topping3
+          return total
+        }
+          
