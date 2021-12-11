@@ -1,0 +1,28 @@
+h1 {
+    color: rgb(167, 8, 8);
+    text-align: center;
+  }
+  
+  h5 {
+    color: rgb(167, 8, 8);
+    font-style: italic;
+    text-align: center;
+  }
+  label {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: arial;
+    text-align: center;
+  }
+
+  body  {
+    background-image: url("https://cdn.suwalls.com/wallpapers/games/bowser-43227-400x250.jpg");
+    background-color: #cccccc;
+  }
+
+  p {
+    color: rgb(167, 8, 8);
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+  }
