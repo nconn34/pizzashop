@@ -8,20 +8,11 @@ function Pizza(size, cheese, topping1, topping2, topping3){
     this.topping3=topping3;
 };
 
-// function Customer(name, address){
-//     this.name=name;
-//     this.address=address
-// };
-
 console.log("PIZZA!!!!")
 
 Pizza.prototype.addTotal = function() {
   return this.size + this.cheese + this.topping1 + this.topping2 + this.topping3;
 };
-
-        
-
-
 
 //User Interface
 
@@ -35,9 +26,8 @@ $("#pizza-order").submit(function(event) {
     const topping3 = parseInt($("#topping3").val());
     let newPizza = new Pizza(size, cheese, topping1, topping2, topping3);
     let price = newPizza.addTotal();
-    console.log(price)
-    return price
+    let total = $("#total");
+    total.empty();
+    total.append("<p> Total: " + price + "</p>")
 })
 })
-
-let newPizza = new Pizza(1, 1, 1, 1, 1);
