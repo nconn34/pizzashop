@@ -20,7 +20,7 @@ Code: let size = 1
       Pizza.prototype.addTotal = function(){
           return = this.size + this.cheese + this.topping1 + this.topping2 + this.topping3
       }
-Expected Output: Would add to a total of 6
+Expected Output: Would add to a total of 5
 
 <!-- Did not have time for constructor below, may try to return to this at some point -->
 
