@@ -23,7 +23,7 @@ Users will be prompted by Bowser's welcoming face, and encouraged to try the bes
 
 * If you are uncertain about the result, please just hit the "Reset Form" button and you may start your order over!
 
-* Use this link: https://nconn34.github.io/pizzashop
+* Use this link: https://nconn34.github.io/pizzashop/
 
 
 You will want to clone this from the repository as is!
